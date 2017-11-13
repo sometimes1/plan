@@ -1,0 +1,145 @@
+/* 计划详情 */
+.topbar{
+  height:100%;
+  background:#313942;
+  display:flex;
+  color:white;
+}
+.topbar > .return {
+  height:1.40625rem;;
+  display: flex;
+  align-items: center;
+  width:43%;
+}
+.topbar > .return > a > .icon{
+  height:0.625rem;
+  width:0.46875rem;
+  fill:white;
+  margin: 0 0.3125rem;
+}
+.topbar > .title{
+  margin:0.3125rem 0;
+  width:57%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.topbar > .title > a{
+  margin-right:0.3125rem;
+}
+/* 计划单号 */
+.top{
+  box-shadow: 0.0625rem 0.0625rem 0.15625rem #b2b1b1;
+  margin:0.40625rem 0.625rem 0 0.625rem;
+  background:white;
+  border-radius: 0.21875rem;
+  padding:0.3125rem;
+}
+.top > .odd > .caution{
+  display: flex;
+  justify-content: space-between;
+}
+.top > .odd > .caution > .icon{
+  width:0.625rem;
+  height:0.625rem;
+}
+.top > .odd h4{
+  margin-bottom:0.15625rem;
+}
+.top > .odd p{
+  margin-bottom:0.3125rem;
+}
+.top > .odd > h3{
+  margin-bottom:0.46875rem;
+  color:blue;
+}
+.top > .odd > h3 > span{
+  font-weight: bold;
+}
+/* 还款项 */
+.datum{
+  background:white;
+  display: flex;
+}
+.datum > .should{
+  width:33.333333%;
+}
+.should > .should-wrapper{
+  border-right:0.03125rem solid black;
+}
+.should > .vertical{
+  padding-left:0.3125rem;
+}
+.should > .vertical2{
+  border:none;
+  padding-left:0.3125rem;
+}
+.datum > .should  span{
+  color:black;
+  display:block;
+  font-size:0.375rem;
+  padding-bottom:0.3125rem;
+}
+.datum > .should > .should-wrapper > h3{
+  color:#2f3533;
+  font-weight:bold;
+}
+h3 > small{
+  font-weight: normal;
+}
+
+/* 提示 */
+.hint{
+  display: flex;
+  align-items: center;
+  margin:0.40625rem 0.625rem 0.15625rem 0.625rem;
+}
+.hint > .i > .icon{
+  width:0.46875rem;
+  height:0.46875rem;
+  margin-right:0.15625rem;
+}
+
+.datum2{
+  border-radius: 0.21875rem;
+  box-shadow: 0.0625rem 0.0625rem 0.15625rem #b2b1b1;
+  padding:0.3125rem;
+  margin:0 0.625rem;
+}
+.span{
+  display: flex;
+  justify-content: space-between;
+}
+.icon-i{
+  width:0.46875rem;
+  height:0.46875rem;
+}
+
+/* 列表 */
+.should-list{
+  background:white;
+  margin:0.15625rem 0.625rem 0.625rem 0.625rem;
+  padding: 0 0.3125rem 0 0.3125rem;
+  box-shadow: 0.0625rem 0.0625rem 0.15625rem #b2b1b1;
+}
+.should-list > .list{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom:0.03125rem solid black;
+}
+.should-list > .none{
+  border:none;
+}
+.list > .number > h3{
+  font-weight: bold;
+}
+.list-data > h4{
+  margin:0.15625rem 0;
+}
+.list-data > h4 >span{
+  color:#81be56;
+}
+.list-data > h4 >span.red{
+  color:red;
+}
