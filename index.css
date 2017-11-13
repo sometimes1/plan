@@ -51,7 +51,6 @@
   border-radius: 50%;
 }
 .message > .vertical{
-  margin:0 0.0625rem;
   height:0.78125rem;
   border:0.03125rem solid #fdf5f4;
 }
